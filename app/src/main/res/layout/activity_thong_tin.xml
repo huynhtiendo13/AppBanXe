@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.XeMayActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarxemay"
+        app:title="Thông tin"
+        android:background="#B51105"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@id/toolbarxemay"
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="App bán xe "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Được thành lập vào năm 1996, công ty Honda Việt Nam là liên doanh giữa Công ty Honda Motor (Nhật Bản), Công ty Asian Honda Motor (Thái Lan) và Tổng Công ty Máy Động Lực và Máy Nông nghiệp Việt Nam với 2 ngành sản phẩm chính: xe máy và xe ô tô. 25 năm có mặt tại Việt Nam, Honda Việt Nam đã không ngừng phát triển và trở thành một trong những công ty dẫn đầu trong lĩnh vực sản xuất xe gắn máy và nhà sản xuất ô tô uy tín tại thị trường Việt"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_image_1" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
